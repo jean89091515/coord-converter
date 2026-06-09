@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 坐标系转换工具 · Streamlit 应用
-立方数据学社 · Vibe Coding 工作营
 """
 import folium
 import pandas as pd
@@ -43,7 +42,7 @@ div.stButton>button[kind="primary"]{background:linear-gradient(90deg,#2b7fd4,#2e
 st.markdown(
     '<div class="hdr"><div class="t">🧭 坐标系转换工具'
     '<small>WGS-84 ⇄ GCJ-02 ⇄ BD-09 ⇄ CGCS2000</small></div>'
-    '<div class="b">立方数据学社 · Vibe Coding 工作营<br>v1.0 · 离线算法，无需 API Key</div></div>',
+    '<div class="b">· 离线算法，无需 API Key</div></div>',
     unsafe_allow_html=True,
 )
 
